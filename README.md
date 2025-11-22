@@ -3,7 +3,7 @@
 ## 📋 Descrição do Projeto
 Este projeto implementa um Agent de Suporte Técnico inteligente que utiliza Azure AI Foundry com Vector Store para fornecer respostas baseadas em uma base de conhecimento corporativa. O agent é capaz de buscar informações em documentos de suporte técnico e responder perguntas de forma contextualizada.
 
-🎥 **[Assista o Vídeo de demonstração](https://drive.google.com/file/d/1sLA2B7G1eQeW84TH-mliDwMQ4FtwZ2yh/view?usp=drive_link)**
+🎥 **[Assista o vídeo de demonstração](https://drive.google.com/file/d/1sLA2B7G1eQeW84TH-mliDwMQ4FtwZ2yh/view?usp=drive_link)**
 
 ## 🎯 Objetivo
 - Criar uma interface gráfica interativa onde usuários possam:
@@ -177,7 +177,7 @@ O agent pode responder perguntas como:
 
 ![Agent criado no AI Foundry](./utils/images/prints-step-by-step/agent.png)
 
-- Faça perguntas e valide as resposta:
+- Faça perguntas e valide as respostas:
 
     - Pergunta:
         ![Perguntando para o Agent](./utils/images/prints-step-by-step/agent-pergunta.png)
