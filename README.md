@@ -3,6 +3,8 @@
 ## 📋 Descrição do Projeto
 Este projeto implementa um Agent de Suporte Técnico inteligente que utiliza Azure AI Foundry com Vector Store para fornecer respostas baseadas em uma base de conhecimento corporativa. O agent é capaz de buscar informações em documentos de suporte técnico e responder perguntas de forma contextualizada.
 
+🎥 **[Assista o Vídeo de demonstração](https://drive.google.com/file/d/1sLA2B7G1eQeW84TH-mliDwMQ4FtwZ2yh/view?usp=drive_link)**
+
 ## 🎯 Objetivo
 - Criar uma interface gráfica interativa onde usuários possam:
 
@@ -160,6 +162,38 @@ O agent pode responder perguntas como:
 
 - "Procedimento para configurar VPN"
 
+
+### Passo a passo:
+
+- Executar o agent: `python agent.py`:
+
+![Agent aberto](./utils/images/prints-step-by-step/agent-aberto.png)
+
+- Conectar o agent na Azure AI Foundry:
+
+![Agent aberto](./utils/images/prints-step-by-step/agent-conectado.png)
+
+- O agent é criado com base de conhecimento:
+
+![Agent criado no AI Foundry](./utils/images/prints-step-by-step/agent.png)
+
+- Faça perguntas e valide as resposta:
+
+    - Pergunta:
+        ![Perguntando para o Agent](./utils/images/prints-step-by-step/agent-pergunta.png)
+
+    - Resposta:
+        ![Perguntando para o Agent](./utils/images/prints-step-by-step/agent-resposta.png)
+
+- Desconectar o agent:
+
+![Desconectando o Agent](./utils/images/prints-step-by-step/agent-desconectado.png)
+
+- O agente será removido do Azure AI Foundry:
+
+![Agent removido do AI Foundry](./utils/images/prints-step-by-step/agent-removido-foundry.png)
+
+
 ## 🛡️ Segurança
 
 - Autenticação via Azure Default Credential
@@ -213,11 +247,11 @@ O sistema fornece logs detalhados:
 
 ## Referências
 
-- [Artificial Intelligence for Beginners - A Curriculum](https://microsoft.github.io/AI-For-Beginners/)
-- [Generative AI for Beginners (Version 3) - A Course](https://microsoft.github.io/generative-ai-for-beginners/#/)
-- [AI Agents for Begineers Repository](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
-- [MCP for Beginners Repository](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-- [Discord do AI Foundry](https://aka.ms/foundry/discord)
+- [Agent Framework](https://github.com/microsoft/agent-framework/blob/main/python/samples/getting_started/agents/azure_ai_agent/azure_ai_with_existing_agent.py)
+- [Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/fine-tune-serverless?tabs=text-generation&pivots=foundry-portal)
+- [Build and consume vector indexes in Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/index-add?view=foundry-classic)
+- [Tkinter](https://docs.python.org/pt-br/3.13/library/tkinter.html)
+- [Tokens Explicados](https://blog.nvidia.com.br/blog/tokens-ia-explicados/)
 - [Regioes dos modelos](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/concepts/model-region-support?tabs=global-standard)
 
 ## 📈 Próximos Passos
