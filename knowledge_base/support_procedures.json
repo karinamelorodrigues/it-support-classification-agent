@@ -1,0 +1,24 @@
+{
+    "procedimentos": {
+      "reset_senha": {
+        "passos": [
+          "Acessar portal de autoatendimento em https://suporte.empresa.com",
+          "Clicar em 'Esqueci minha senha'",
+          "Inserir email corporativo",
+          "Verificar caixa de entrada para código de verificação",
+          "Inserir código e criar nova senha",
+          "Nova senha deve ter mínimo 8 caracteres com letras e números"
+        ],
+        "contato_emergencia": "suporte-senhas@empresa.com"
+      },
+      "problema_wifi": {
+        "solucao_rapida": [
+          "Reiniciar roteador WiFi",
+          "Verificar se WiFi está habilitado no dispositivo",
+          "Esquecer rede e reconectar",
+          "Testar em outro dispositivo"
+        ],
+        "categoria": "Rede"
+      }
+    }
+  }

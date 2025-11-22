@@ -1,0 +1,170 @@
+[
+  {
+    "pergunta": "Não consigo conectar no wifi do escritório",
+    "categoria": "network",
+    "sla": "4 horas",
+    "solucao": "Verifique se outros dispositivos conectam na mesma rede. Reinicie o roteador e tente conectar novamente. Se o problema persistir, verifique as configurações de rede do seu dispositivo.",
+    "resposta_agent": "Seu problema foi classificado como 'rede'. SLA: 4 horas. Sugestão: verifique se outros dispositivos conectam na mesma rede e reinicie o roteador."
+  },
+  {
+    "pergunta": "Minha senha está bloqueada e não consigo acessar o email",
+    "categoria": "access",
+    "sla": "2 horas", 
+    "solucao": "Use o portal de autoatendimento para resetar sua senha. Acesse https://portal.empresa.com/reset-senha. Caso não consiga, entre em contato com o helpdesk.",
+    "resposta_agent": "Seu problema foi classificado como 'acesso'. SLA: 2 horas. Sugestão: use o portal de autoatendimento para resetar sua senha em https://portal.empresa.com/reset-senha."
+  },
+  {
+    "pergunta": "O computador não liga, tela fica preta",
+    "categoria": "hardware",
+    "sla": "8 horas",
+    "solucao": "Verifique se o cabo de energia está bem conectado na tomada e no computador. Teste em outra tomada funcionando. Se as luzes não acenderem, pode ser problema na fonte de alimentação.",
+    "resposta_agent": "Seu problema foi classificado como 'hardware'. SLA: 8 horas. Sugestão: verifique os cabos de energia e teste em outra tomada. Pode ser problema na fonte."
+  },
+  {
+    "pergunta": "Sistema de vendas está muito lento para carregar",
+    "categoria": "software",
+    "sla": "4 horas",
+    "solucao": "Limpe o cache do navegador e tente acessar novamente. Verifique se outros colegas estão com o mesmo problema. Caso persista, pode ser necessário otimizar o banco de dados.",
+    "resposta_agent": "Seu problema foi classificado como 'software'. SLA: 4 horas. Sugestão: limpe o cache do navegador e verifique se outros colegas têm o mesmo problema."
+  },
+  {
+    "pergunta": "Preciso de acesso ao novo sistema de RH",
+    "categoria": "access",
+    "sla": "24 horas",
+    "solucao": "Solicite acesso através do formulário online em https://solicitacoes.empresa.com/novo-acesso. O RH aprovará e o acesso será liberado em até 24 horas.",
+    "resposta_agent": "Seu problema foi classificado como 'acesso'. SLA: 24 horas. Sugestão: solicite acesso através do formulário em https://solicitacoes.empresa.com/novo-acesso."
+  },
+  {
+    "pergunta": "Impressora do 3º andar não está imprimindo",
+    "categoria": "hardware",
+    "sla": "4 horas",
+    "solucao": "Verifique se há papel na bandeja e se não há papel encravado. Reinicie a impressora e tente imprimir novamente. Se o problema persistir, pode ser necessário substituir o toner ou fazer manutenção.",
+    "resposta_agent": "Seu problema foi classificado como 'hardware'. SLA: 4 horas. Sugestão: verifique papel na bandeja, reinicie a impressora e teste novamente."
+  },
+  {
+    "pergunta": "VPN não conecta quando estou em casa",
+    "categoria": "network",
+    "sla": "4 horas",
+    "solucao": "Verifique sua conexão de internet em casa. Reinicie o modem e tente conectar novamente. Certifique-se de que está usando as credenciais corretas da VPN.",
+    "resposta_agent": "Seu problema foi classificado como 'rede'. SLA: 4 horas. Sugestão: verifique sua internet doméstica e reinicie o modem antes de tentar conectar na VPN."
+  },
+  {
+    "pergunta": "Excel está travando quando abro planilhas grandes",
+    "categoria": "software",
+    "sla": "8 horas",
+    "solucao": "Tente reparar a planilha através de Arquivo > Informações > Verificar Problemas > Reparar. Considere dividir a planilha em arquivos menores ou aumentar a memória alocada para o Excel.",
+    "resposta_agent": "Seu problema foi classificado como 'software'. SLA: 8 horas. Sugestão: repare a planilha através de Arquivo > Informações > Verificar Problemas > Reparar."
+  },
+  {
+    "pergunta": "Não recebo emails externos no outlook",
+    "categoria": "software",
+    "sla": "4 horas",
+    "solucao": "Verifique a pasta de Spam/Lixo Eletrônico. Confirme as regras de filtragem do Outlook. Pode ser necessário ajustar as configurações de segurança do exchange.",
+    "resposta_agent": "Seu problema foi classificado como 'software'. SLA: 4 horas. Sugestão: verifique a pasta de Spam e confirme as regras de filtragem do Outlook."
+  },
+  {
+    "pergunta": "Internet cai toda hora no período da tarde",
+    "categoria": "network",
+    "sla": "8 horas",
+    "solucao": "Pode ser congestionamento de rede. Monitoraremos sua conexão no período problemático. Enquanto isso, evite downloads grandes nesse horário.",
+    "resposta_agent": "Seu problema foi classificado como 'rede'. SLA: 8 horas. Sugestão: pode ser congestionamento de rede. Monitoraremos sua conexão no período problemático."
+  },
+  {
+    "pergunta": "Teclado parou de funcionar após derramar café",
+    "categoria": "hardware",
+    "sla": "24 horas",
+    "solucao": "Desligue o teclado imediatamente e não tente usar. O líquido pode causar curto-circuito. Será necessário substituir o teclado.",
+    "resposta_agent": "Seu problema foi classificado como 'hardware'. SLA: 24 horas. Sugestão: desligue o teclado imediatamente. Será necessário substituí-lo devido ao líquido."
+  },
+  {
+    "pergunta": "Sistema ERP mostra erro 500 ao gerar relatório",
+    "categoria": "software",
+    "sla": "2 horas",
+    "solucao": "Erro 500 indica problema no servidor. Não tente gerar o relatório novamente. O time de desenvolvimento já foi notificado e está trabalhando na correção.",
+    "resposta_agent": "Seu problema foi classificado como 'software'. SLA: 2 horas. Sugestão: erro no servidor. Time de desenvolvimento notificado. Não tente gerar o relatório novamente."
+  },
+  {
+    "pergunta": "Preciso resetar minha senha do windows",
+    "categoria": "access",
+    "sla": "2 horas",
+    "solucao": "Use a opção 'Esqueci minha senha' na tela de login do Windows. Caso não funcione, entre em contato com o helpdesk para reset remoto.",
+    "resposta_agent": "Seu problema foi classificado como 'acesso'. SLA: 2 horas. Sugestão: use 'Esqueci minha senha' na tela de login ou contate o helpdesk para reset remoto."
+  },
+  {
+    "pergunta": "Rede wifi muito lenta na sala de reuniões",
+    "categoria": "network",
+    "sla": "8 horas",
+    "solucao": "Muitos dispositivos conectados podem causar lentidão. Vamos otimizar os canais do roteador e considerar instalar um access point adicional na área.",
+    "resposta_agent": "Seu problema foi classificado como 'rede'. SLA: 8 horas. Sugestão: muitos dispositivos na rede. Otimizaremos os canais e avaliaremos access point adicional."
+  },
+  {
+    "pergunta": "Mouse não está funcionando, já troquei a bateria",
+    "categoria": "hardware",
+    "sla": "4 horas",
+    "solucao": "Teste o mouse em outra porta USB ou em outro computador. Se não funcionar, o mouse pode estar com defeito e precisará ser substituído.",
+    "resposta_agent": "Seu problema foi classificado como 'hardware'. SLA: 4 horas. Sugestão: teste em outra porta USB ou computador. Pode ser necessário substituir o mouse."
+  },
+  {
+    "pergunta": "Software de contabilidade não abre, dá erro de licença",
+    "categoria": "software",
+    "sla": "4 horas",
+    "solucao": "A licença pode ter expirado ou há problema de ativação. Verificaremos o status da licença no sistema e reativaremos se necessário.",
+    "resposta_agent": "Seu problema foi classificado como 'software'. SLA: 4 horas. Sugestão: problema de licença. Verificaremos o status e reativaremos se necessário."
+  },
+  {
+    "pergunta": "Esqueci minha senha do sistema de ponto",
+    "categoria": "access",
+    "sla": "2 horas",
+    "solucao": "Entre em contato com o RH para resetar sua senha do sistema de ponto. Eles podem fazer o reset imediatamente.",
+    "resposta_agent": "Seu problema foi classificado como 'acesso'. SLA: 2 horas. Sugestão: contate o RH para resetar sua senha do sistema de ponto."
+  },
+  {
+    "pergunta": "Conexão de rede cai quando faço chamada de vídeo",
+    "categoria": "network",
+    "sla": "8 horas",
+    "solucao": "Chamadas de vídeo consomem muita banda. Verificaremos a qualidade da sua conexão e priorizaremos o tráfego de vídeo no roteador.",
+    "resposta_agent": "Seu problema foi classificado como 'rede'. SLA: 8 horas. Sugestão: chamadas de vídeo consomem muita banda. Verificaremos sua conexão e priorizaremos o tráfego."
+  },
+  {
+    "pergunta": "Notebook desliga sozinho após 10 minutos de uso",
+    "categoria": "hardware",
+    "sla": "4 horas",
+    "solucao": "Pode ser superaquecimento ou problema na bateria. Verifique se as ventoinhas estão funcionando e se o notebook está em superfície plana para ventilação.",
+    "resposta_agent": "Seu problema foi classificado como 'hardware'. SLA: 4 horas. Sugestão: pode ser superaquecimento. Verifique ventoinhas e use em superfície plana para ventilação."
+  },
+  {
+    "pergunta": "Sistema travou e perdi todo o trabalho não salvo",
+    "categoria": "software",
+    "sla": "2 horas",
+    "solucao": "Sinto muito pelo trabalho perdido. Verificaremos os logs para identificar a causa do travamento. Configure salvamento automático a cada 5 minutos para evitar futuras perdas.",
+    "resposta_agent": "Seu problema foi classificado como 'software'. SLA: 2 horas. Sugestão: verificaremos os logs do sistema. Configure salvamento automático para evitar futuras perdas."
+  },
+  {
+    "pergunta": "Não tenho permissão para acessar a pasta compartilhada",
+    "categoria": "access",
+    "sla": "4 horas",
+    "solucao": "Solicitaremos as permissões necessárias para você. Informe o caminho completo da pasta e seu departamento para processarmos a solicitação.",
+    "resposta_agent": "Seu problema foi classificado como 'acesso'. SLA: 4 horas. Sugestão: solicitaremos as permissões. Informe o caminho da pasta e seu departamento."
+  },
+  {
+    "pergunta": "Internet não funciona em nenhum dispositivo do setor",
+    "categoria": "network",
+    "sla": "1 hora",
+    "solucao": "Problema crítico de rede. Time de redes já foi acionado. Verifique se switches e roteadores do setor estão ligados e com luzes indicadoras ativas.",
+    "resposta_agent": "Seu problema foi classificado como 'rede'. SLA: 1 hora (crítico). Sugestão: time de redes acionado. Verifique se equipamentos de rede estão ligados."
+  },
+  {
+    "pergunta": "Tela azul aparece sempre que inicio o windows",
+    "categoria": "hardware",
+    "sla": "4 horas",
+    "solucao": "Tela azul indica problema sério no sistema. Tente iniciar em modo de segurança. Pode ser problema de driver, hardware ou arquivos de sistema corrompidos.",
+    "resposta_agent": "Seu problema foi classificado como 'hardware'. SLA: 4 horas. Sugestão: tente iniciar em modo de segurança. Pode ser problema de driver ou hardware."
+  },
+  {
+    "pergunta": "Aplicativo mobile não sincroniza com o sistema",
+    "categoria": "software",
+    "sla": "8 horas",
+    "solucao": "Verifique se está usando a versão mais recente do aplicativo. Confirme que está conectado à internet. Tente reinstalar o aplicativo e fazer login novamente.",
+    "resposta_agent": "Seu problema foi classificado como 'software'. SLA: 8 horas. Sugestão: atualize o aplicativo, verifique internet e tente reinstalar se necessário."
+  }
+]

@@ -1,0 +1,18 @@
+[project]
+name = "it-support-classification"
+version = "0.1.0"
+description = "IT Support Classification Agent for Azure AI Foundry"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "azure-ai-agents>=1.2.0b5",
+    "agent-framework>=1.0.0b251114",
+    "azure-ai-projects>=1.0.0",
+    "azure-identity>=1.15.0",
+    "python-dotenv>=1.0.0",
+    "aiohttp>=3.8.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
