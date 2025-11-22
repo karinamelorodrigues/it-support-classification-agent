@@ -1,4 +1,4 @@
-### Agent de Suporte TI com Azure AI Foundry
+# Agent de Suporte TI com Azure AI Foundry
 
 ## 📋 Descrição do Projeto
 Este projeto implementa um Agent de Suporte Técnico inteligente que utiliza Azure AI Foundry com Vector Store para fornecer respostas baseadas em uma base de conhecimento corporativa. O agent é capaz de buscar informações em documentos de suporte técnico e responder perguntas de forma contextualizada.
@@ -18,7 +18,7 @@ Este projeto implementa um Agent de Suporte Técnico inteligente que utiliza Azu
 
 ## 🏗️ Arquitetura do Sistema
 
-![Imagem Arquitetura do sistema](../it-support-classification/utils/images/arquitetura.png)
+![Imagem Arquitetura do sistema](./utils/images/arquitetura.png)
 
 ## Fluxo de Dados:
 
@@ -34,7 +34,7 @@ Este projeto implementa um Agent de Suporte Técnico inteligente que utiliza Azu
 
 ## 🛠️ Tecnologias Utilizadas
 
-# Backend & AI
+### Backend & AI
 
 - Python 3.10+
 - Microsoft Azure AI Foundry
@@ -43,7 +43,7 @@ Este projeto implementa um Agent de Suporte Técnico inteligente que utiliza Azu
     - Azure Identity - Autenticação e autorização
     - Vector Stores - Armazenamento e busca semântica
 
-# Frontend & Interface
+### Frontend & Interface
 
 - Tkinter - Interface gráfica nativa do Python
 
@@ -51,7 +51,7 @@ Este projeto implementa um Agent de Suporte Técnico inteligente que utiliza Azu
 
 - Asyncio - Programação assíncrona
 
-# Gerenciamento de Dados
+## Gerenciamento de Dados
 
 - JSON - Estruturação de dados
 
@@ -59,25 +59,21 @@ Este projeto implementa um Agent de Suporte Técnico inteligente que utiliza Azu
 
 - Environment Variables - Configurações sensíveis
 
-📁 Estrutura do Projeto
+### 📁 Estrutura do Projeto
 
-`
-it-support-classification/
-├── agent_ai_foundry_final.py      # Agent principal com interface
-├── explore_api.py                 # Script de exploração da API
-├── explore_upload_methods.py      # Script de teste de upload
-├── .env                          # Variáveis de ambiente
-├── instructions/
-│   └── instrucoes.txt            # Instruções do agent
-└── knowledge_base/
-    ├── support_procedures.json   # Procedimentos de suporte
-    └── base_support_ti.json      # Base de conhecimento TI
+![Imagem Arquitetura do sistema](./utils/images/estrutura.png)
 
-`
+📄 **Arquivos Python (azul)**: Código principal e scripts
+
+🔐 **Configuração (vermelho)**: Variáveis de ambiente
+
+📁 **Diretórios (verde/roxo/laranja)**: Organização do projeto
+
+📄 **Dados (rosa)**: Arquivos de conhecimento e instruções
 
 ## 🔧 Configuração e Instalação
 
-# Pré-requisitos
+### Pré-requisitos
 
 - Python 3.10 ou superior
 
@@ -85,7 +81,8 @@ it-support-classification/
 
 - Credenciais de acesso ao Azure -> utilizar azure CLI -> `az login`
 
-# Instalação
+### Instalação
+
 - Clone o repositório
 `
     git clone <repository-url>
@@ -95,21 +92,21 @@ it-support-classification/
 - Crie um ambiente virtual
 `
     python -m venv .venv
-    source .venv/bin/activate  # Linux/Mac
-    # ou
-    .venv\Scripts\activate     # Windows
-`
-
+    source .venv/bin/activate`  # Linux/Mac ou
+  
+    `.venv\Scripts\activate`     # Windows
+  
 - Configure as variáveis de ambiente
 
     `cp .env.example .env `
-# Edite o arquivo .env com suas credenciais
+  
+### Edite o arquivo .env com suas credenciais
 
 - Variáveis de Ambiente
-    - AZURE_AI_PROJECT_ENDPOINT=https://your-project.ai.azure.com/
-    - AZURE_AI_MODEL_DEPLOYMENT_NAME=your-model-name
+    - `AZURE_AI_PROJECT_ENDPOINT=https://your-project.ai.azure.com/`
+    - `AZURE_AI_MODEL_DEPLOYMENT_NAME=your-model-name`
 
-🚀 Como Executar
+## 🚀 Como Executar
 
 - Ative o ambiente virtual: source .venv/bin/activate
 
@@ -125,7 +122,7 @@ it-support-classification/
 
 ## 📊 Funcionalidades
 
-# ✅ Conectividade
+### ✅ Conectividade
 
 - Conexão automática com Azure AI Foundry
 
@@ -133,7 +130,7 @@ it-support-classification/
 
 - Upload de arquivos para base de conhecimento
 
-# ✅ Interface
+### ✅ Interface
 
 - Chat interativo em tempo real
 
@@ -143,7 +140,7 @@ it-support-classification/
 
 - Indicador de arquivos carregados
 
-# ✅ Processamento
+### ✅ Processamento
 
 - Busca semântica na base de conhecimento
 
@@ -151,7 +148,7 @@ it-support-classification/
 
 - Processamento assíncrono para não bloquear a UI
 
-# 🔍 Exemplos de Uso
+### 🔍 Exemplos de Uso
 
 O agent pode responder perguntas como:
 
@@ -187,7 +184,7 @@ O sistema fornece logs detalhados:
 
 ## 🐛 Solução de Problemas
 
-# Erros Comuns
+### Erros Comuns
 
 - Variáveis de ambiente não configuradas
 
@@ -207,12 +204,11 @@ O sistema fornece logs detalhados:
 
     - Confirme o formato dos arquivos (.json, .txt, .md, .pdf)
 
-# Logs de Debug
+### Logs de Debug
 
-- Execute os scripts de exploração para diagnóstico que estão em ./utils/exporation-codes:
-
-python test-connection.py
-python test-vector-store.py
+- Execute os scripts de exploração para diagnóstico que estão em `./utils/exporation-codes`:
+    - `python test-connection.py`
+    - `python test-vector-store.py`
 
 
 ## Referências
@@ -243,24 +239,24 @@ python test-vector-store.py
 - Fork o projeto
 
 - Crie uma branch para sua feature
-
+                                                                                                                                                                                                                                    
 - Commit suas mudanças
 
 - Push para a branch
 
 - Abra um Pull Request
-
+                                                                                        
 
 ## 🤝 Suporte
 
-- Para issues e dúvidas:
+- Para issues e dúvidas:                                                                                                                                
 
-- Abra uma issue no repositório
-
-- Consulte a documentação do Azure AI Foundry
-
-- Verifique os logs de execução
+    - Abra uma issue no repositório
+    
+    - Consulte a documentação do Azure AI Foundry
+    
+    - Verifique os logs de execução
 
 ---  
 
-# Desenvolvido com ❤️ usando Azure AI Foundry e Python
+#### Desenvolvido com ❤️ usando Azure AI Foundry e Python
